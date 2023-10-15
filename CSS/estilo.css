@@ -123,7 +123,7 @@ img {
     min-width: 120px;
     height: auto;
 }
-#seg{
+.seg{
     width: 20%;   
     min-width: 100px;
     justify-self: flex-end;
