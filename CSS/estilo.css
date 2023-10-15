@@ -1,0 +1,252 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header,
+main,
+footer {
+    margin: -5px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+
+header {
+    background-image: url(../Imagens/Rectangle\ 1.png);
+    background-size: 120% 110%;
+    background-position-x: -80px;
+    min-height: 150px;
+    position: relative;
+    padding-right: 0%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: cursive;
+    font-size: 110%;
+}
+
+.secao div{
+    display:  flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#topicos {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0%;
+    position: absolute;
+}
+
+.topico {
+    flex-shrink: 1;
+    width: 25%;
+    background-color: #488B4C;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+.topico:hover {
+    background-color: #2a532d;
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+a {
+    text-decoration: none;
+    color: #E9E9E9;
+}
+
+#btn {
+    flex-shrink: 1;
+    position: absolute;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    background-color: #263B4E;
+    height: 50%;
+    margin-right: 1.5%;
+    border-radius: 10px;
+    padding: 0.7% 1.5%;
+}
+
+#btn:hover {
+    background-color: #527ca3;
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+
+
+main {
+    background-image: url(../Imagens/ODS3-1\ 1.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 3% 7% 3% 5%;
+
+}
+
+.link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #252525;
+    margin-left: 5%;
+}
+
+footer {
+    background-color: #252F23;
+    display: flex;
+    justify-content: space-around;
+    color: #909090;
+}
+
+.info {
+    display: flex;
+    width: 300%;
+    margin-left: 5%;
+}
+
+#ref {
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+.ref {
+    color: #909090;
+    font-size: 75%;
+}
+
+img {
+    width: 50%;
+    min-width: 120px;
+    height: auto;
+}
+#seg{
+    width: 20%;   
+    min-width: 100px;
+    justify-self: flex-end;
+}
+#logo{
+    margin-top: -10%;
+    color: #048B25;
+    min-width: 100px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+form {
+    font-family: cursive;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.dados,
+.area,
+.sugestoes {
+    background-color: #8acf8f;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.field-box {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1% 25% 1% 15%;
+    font-size: x-large;
+}
+
+.green-box {
+    background-color: #ffffff;
+    padding: 1px;
+    border-radius: 20px 20px 0px 0px;
+    padding-left: 5%;
+}
+
+.dados label {
+    padding-left: 5%;
+}
+
+.dados div{
+    width: 45%;
+    min-width: 350px;
+    padding-left: 20px;
+}
+.dados .field-box{
+    width: 80%;
+    padding: 1% 10% 1% 10%;
+
+}
+
+.sugestoes .field-box {
+    padding: 1% 10% 1% 10%;
+}
+
+.field-box label,
+.field-box input {
+    margin-bottom: 20px;
+}
+
+.field-box input[type="text"],
+.field-box input[type="number"],
+.field-box input[type="tel"],
+.field-box input[type="email"] {
+    background-color: #ebe9e9;
+    border-radius: 20px;
+    width: 100%;
+    margin: 10px 0px 10px 00px;
+    padding: 8px;
+    border: none;
+    cursor: text;
+}
+
+.field-box input[type="checkbox"],
+.area label {
+    width: 25px;
+    height: 25px;
+    vertical-align: top;
+}
+
+.area div div{
+    width: 50%;
+    min-width: 350px;
+}
+.area .field-box{
+    padding: 1% 0% 1% 10%;
+}
+
+button {
+    background-color: #8acf8f;
+    color: #181818;
+    margin-top: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: larger;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #488B4C;
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+.button_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+textarea {
+    resize: none;
+    font-family: cursive;
+    font-size: large;
+}

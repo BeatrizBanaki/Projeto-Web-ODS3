@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Ajuda</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="btn">
+            <div >
+                Página Inicial
+            </div>
+        </a>
+    </header>
+
+    <main>
+
+        <form >
+
+            <section class="dados">
+                <h2 class="green-box">Dados Pessoais </h2>
+                <div class="field-box">
+                    <div>
+                        <label class="label-small" for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div>
+                        <label class="label-small" for="idade">Idade:</label>
+                        <input type="number" id="idade" name="idade" required>
+                    </div>
+
+                    <div>
+                        <label class="label-small" for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+                    </div>
+
+                    <div>
+                        <label class="label-small" for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="area">
+                <h2 class="green-box">Área de Interesse </h2>
+                <div class="field-box">
+                    <div>
+                        <input type="checkbox" id="tuberculose" name="areas" value="Epidemias - Tuberculose">
+                        <label for="tuberculose">Epidemias - Tuberculose</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="transito" name="areas" value="Segurança no Trânsito">
+                        <label for="transito">Segurança no Trânsito</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="tabaco" name="areas"
+                            value="Controle do Tabaco">
+                        <label for="tabaco">Controle do Tabaco</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="saude-mental" name="areas" value="Saúde Mental">
+                        <label for="saude-mental">Saúde Mental</label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sugestoes">
+                <h2 class="green-box">Sugestões/Dicas </h2>
+                <div class="field-box">
+                    <textarea id="sugestoes" name="sugestoes" rows="5" cols="130"
+                        placeholder="Insira aqui algumas sugestões em relação a alguma das opções assinaladas acima e sobre saúde e bem-estar:"></textarea><br>
+                </div>
+
+            </section>
+
+            <div class="button_container">
+                <button class="label-small" type="submit" value="Enviar">Enviar</button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <div class="info">
+            <div id="devs">
+                <h3>Desenvolvido por:</h3>
+                <br>
+                <p>
+                    Beatriz Aparecida Banaki de Campos <br><br>
+                    Rafael de Palma Francisco
+                </p>
+            </div>
+            <div id="ref">
+                <h3>Referencias:</h3>
+                <a href="https://www.paho.org/pt/topicos/seguranca-no-transito" class="ref" target="_blank">
+                    Segurança no trânsito - OPAS
+                </a> <br>
+                <a href="https://www.paho.org/pt/noticias/27-10-2022-mortes-e-doencas-por-tuberculose-aumentaram-durante-pandemia-da-covid-19#:~:text=Genebra%2C%2027%20de%20outubro%20de,da%20Sa%C3%BAde%20(OMS)%20de%202022"
+                    class="ref" target="_blank">
+                    Mortes e doenças por tuberculose aumentaram durante a pandemia da COVID-19 - OPAS
+                </a> <br>
+                <a href="https://www.hospitalanchieta.com.br/tuberculose-como-prevenir/" class="ref" target="_blank">
+                    Tuberculose: saiba como prevenir a doença - Hospital Anchieta
+                </a><br>
+                <a href="https://lithealth.com.br/tabagismo/#:~:text=O%20controle%20do%20uso%20de,respirat%C3%B3rias%2C%20neoplasias%20e%20diabetes%20mellitus"
+                    class="ref" target="_blank">
+                    Programa Nacional de Controle ao Tabagismo - LitHealth
+                </a> <br>
+                <a href="https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/document//convencao-quadro-para-controle-do-tabaco-texto-oficial.pdf"
+                    class="ref" target="_blank">
+                    Comissão Nacional para Implementação da Convenção-Quadro para Controle do Tabaco (Conicq) - INCA
+                </a><br>
+
+            </div>
+        </div>
+        <figure>
+            <img src="Imagens/logo.png" alt="logo">
+            <h3 id="logo">VIDA SAUDÁVEL</h3>
+        </figure>
+    </footer>
+</body>
+
+</html>
