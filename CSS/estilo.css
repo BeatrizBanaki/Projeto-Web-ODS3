@@ -118,7 +118,7 @@ footer {
     font-size: 75%;
 }
 
-img {
+img {   
     width: 50%;
     min-width: 120px;
     height: auto;
@@ -242,11 +242,121 @@ button:hover {
 
 .button_container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 textarea {
     resize: none;
     font-family: cursive;
     font-size: large;
+}
+
+#btnLista {
+    background-color: #8acf8f;
+    color: #181818;
+    margin-top: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: larger;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btnLista:hover {
+    background-color: #488B4C;
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+/*                               lista                            
+ -------------------------------------------------------------- */
+
+
+#sugestList {
+    margin: 0;
+    padding: 0;
+}
+
+#sugestList li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+#sugestList li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+#sugestList li:hover {
+    background: #ddd;
+}
+
+/* ---------- check da lista ao clicar -------------- */
+/* ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+} */
+
+.close {
+    position: absolute;
+    align-items: center;
+    right: 0;
+    top: 0; 
+    height: 100%;
+    width: 5%;
+    text-align: center;
+}
+
+.close:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+#searchInput {
+    background-color: #ebe9e9;
+    border-radius: 20px;
+    width: 70%;
+    margin: 10px 0px 10px 00px;
+    padding: 8px;
+    border: none;
+    cursor: text;
+    margin: 1% 1%;
+    font-size: larger;
+}
+
+.search {
+    background-color: #8acf8f;
+    border-radius: 20px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+
+}
+
+#searchButon{
+    background-color: #263B4E;
+    color: #E9E9E9;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: larger;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 1% 1%;
+}
+
+#searchButon:hover {
+    background-color: #527ca3;
+    transform: scale(1.05);
+    transition-duration: 0.4s;
 }

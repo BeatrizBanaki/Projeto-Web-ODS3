@@ -19,7 +19,7 @@
 
     <main>
 
-        <form >
+        <form  id="sugestForm">
 
             <section class="dados">
                 <h2 class="green-box">Dados Pessoais </h2>
@@ -83,9 +83,16 @@
             </section>
 
             <div class="button_container">
-                <button class="label-small" type="submit" value="Enviar">Enviar</button>
+                <button class="label-small" type="submit" href="lista.html">Salvar</button>
+                <a href="lista.html" id="btnLista">
+                    <div >
+                        Lista de Sugestões
+                    </div>
+                </a>
             </div>
         </form>
+
+        <ul id="sugestList"></ul>
 
     </main>
 
@@ -127,6 +134,7 @@
             <h3 id="logo">VIDA SAUDÁVEL</h3>
         </figure>
     </footer>
+    <script src="Java/scriptForm.js"></script>
 </body>
 
 </html>
